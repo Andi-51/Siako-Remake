@@ -54,7 +54,7 @@ const Header = () => {
         className={
           !nav
             ? "fixed left-0 top-0 w-[80%] h-full z-50 border-r border-r-gray-900 bg-[#42A5F5] ease-in-out duration-500"
-            : "fixed left-[-100%] top-0 w-[80%] border-r border-r-gray-900 bg-[42A5F5] ease-in-out duration-500"
+            : "fixed left-[-100%] top-0 w-[80%] border-r border-r-gray-900 bg-[#42A5F5] ease-in-out duration-500"
         }
       >
         <h1 className="w-fit text-xl font-semibold text-white mt-5 ml-3">
