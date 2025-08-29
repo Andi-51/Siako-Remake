@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <div className="Hero text-white">
       <div className="max-w-[1000px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center">
         <p className="font-bold p-2 uppercase text-black mb-4 sm:mb-2">
   Selamat datang di website resmi

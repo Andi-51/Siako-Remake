@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
-* {
+.Header, .Hero {
     background-color: #42A5F5;
 }
