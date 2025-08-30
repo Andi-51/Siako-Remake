@@ -1,9 +1,9 @@
-import React from 'react'
 import Header from '/src/component/Header.jsx'
 import Hero from '/src/component/Hero.jsx'
 import Visi from '/src/component/Visi.jsx'
 import Facilities from './component/Facilities'
 import WhyUs from './component/WhyUs'
+import Rating from './component/Rating'
 
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
       <Visi />
       <WhyUs />
       <Facilities />
+      <Rating />
     </div>
   )
 }
