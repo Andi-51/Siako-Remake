@@ -9,8 +9,6 @@ const WhyUs = () => {
           Kenapa memilih kami?
         </h2>
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-12">
-          
-          {/* Card 1 */}
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <FaUserGraduate className="text-[#00df9a] w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-white">Lulusan Berkualitas</h3>
@@ -19,8 +17,6 @@ const WhyUs = () => {
               sesuai kebutuhan industri.
             </p>
           </div>
-
-          {/* Card 2 */}
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <FaChalkboardTeacher className="text-[#00df9a] w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-white">Guru yang Berpengalaman</h3>
@@ -29,8 +25,6 @@ const WhyUs = () => {
               pendekatan modern.
             </p>
           </div>
-
-          {/* Card 3 */}
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <FaLaptopCode className="text-[#00df9a] w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-white">Fasilitas Modern</h3>
