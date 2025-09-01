@@ -9,12 +9,16 @@ const Footer = () => {
     <footer className="bg-[#42a5f5] text-black py-8">
       <div className="container mx-auto px-6 flex flex-col items-center">
       
-        <div className="flex flex-col md:flex-row items-center justify-between w-full mb-6">
-          <div className="flex items-center space-x-3">
+        {/* Bagian atas: logo + sosial media */}
+        <div className="flex flex-col md:flex-row items-center md:justify-between w-full mb-6">
+          {/* Logo */}
+          <div className="flex items-center space-x-3 mb-4 md:mb-0">
             <img src={Logo} alt="Logo SMK" className="w-12 h-12" />
-            <span className="font-semibold text-lg">SMK INFORMATIKA CBI</span>
+            <span className="font-semibold text-lg text-white">SMK INFORMATIKA CBI</span>
           </div>
-          <div className="flex space-x-5 mt-4 md:mt-0">
+
+          {/* Social Media */}
+          <div className="flex space-x-5">
             <a
               href="https://www.instagram.com/smkinformatikacbi/"
               target="_blank"
@@ -33,8 +37,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
+
+        {/* Bagian bawah: navigasi + copyright */}
         <div className="w-full border-t border-white/30 pt-4 flex flex-col items-center text-sm">
-          <div className="flex space-x-6 mb-3 font-medium">
+          {/* Navigasi */}
+          <div className="flex flex-wrap justify-center space-x-4 md:space-x-6 mb-3 font-medium">
             <Link to="/" className="hover:underline">Beranda</Link>
             <Link to="/jurusan" className="hover:underline">Jurusan</Link>
             <Link to="/ekskul" className="hover:underline">Ekskul</Link>
@@ -42,7 +49,9 @@ const Footer = () => {
             <Link to="/profile" className="hover:underline">Profil</Link>
             <Link to="/kontak" className="hover:underline">Kontak</Link>
           </div>
-          <div className="text-center">
+
+          {/* Copyright */}
+          <div className="text-center text-white">
             © {new Date().getFullYear()} SMK Informatika CBI. All rights reserved.
           </div>
         </div>
