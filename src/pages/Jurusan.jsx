@@ -4,7 +4,6 @@ import { FaPalette, FaLaptopCode } from "react-icons/fa";
 const Jurusan = () => {
   return (
     <div className="bg-white h-fit flex items-center justify-center">
-      {/* Konten utama */}
       <div className="w-full max-w-6xl px-4 py-10">
         <h1 className="text-lg md:text-xl text-center font-semibold">
           Kami menyediakan 2 jurusan yaitu PPLG (Pemrograman Perangkat Lunak dan
@@ -12,7 +11,6 @@ const Jurusan = () => {
         </h1>
 
         <div className="mt-10 flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-          {/* Card PPLG */}
           <div className="flex-1 flex flex-col items-center text-center bg-gray-200 p-6 rounded-2xl shadow-lg">
             <FaLaptopCode className="text-black w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-black">

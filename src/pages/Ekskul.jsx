@@ -42,13 +42,10 @@ const Ekskul = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
-      {/* Konten utama */}
       <div className="flex-1 mx-auto w-full max-w-6xl px-4 py-10">
         <h1 className="text-lg md:text-xl text-center font-semibold">
           Ekstrakurikuler SMK Informatika CBI
         </h1>
-
-        {/* Grid Layout */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
           {ekskulList.map((ekskul, index) => (
             <div

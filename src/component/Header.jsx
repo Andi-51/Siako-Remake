@@ -18,8 +18,6 @@ const Header = () => {
         <img src={Logo} alt="logo" className="w-12 h-12 object-contain mr-2" />
         SMK CBI
       </h1>
-
-      {/* Desktop Menu */}
       <ul className="hidden md:flex font-semibold text-black">
   <li className="px-4">
     <Link to="/">Beranda</Link>
@@ -42,8 +40,6 @@ const Header = () => {
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
-
-      {/* Mobile Menu */}
       <div
         className={`fixed top-0 left-0 w-[80%] h-full z-50 border-r border-gray-900 bg-[#42A5F5] transition-transform duration-500 ${
           nav ? "-translate-x-full" : "translate-x-0"

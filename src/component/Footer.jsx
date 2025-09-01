@@ -38,11 +38,8 @@ const Footer = () => {
             <Link to="/jurusan" className="hover:underline">Jurusan</Link>
             <Link to="/ekskul" className="hover:underline">Ekskul</Link>
             <Link to="/organisasi" className="hover:underline">Organisasi</Link>
-            <Link to="/profile" className="hover:underline">Profil</Link>
             <Link to="/kontak" className="hover:underline">Kontak</Link>
           </div>
-
-          {/* Copyright */}
           <div className="text-center text-white">
             © {new Date().getFullYear()} SMK Informatika CBI. All rights reserved.
           </div>
