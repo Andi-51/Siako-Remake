@@ -1,44 +1,71 @@
 import React from 'react'
 
 const Ekskul = () => {
+  const ekskulList = [
+    {
+      title: "Lab Komputer",
+      description: "Ekskul untuk belajar coding, hardware, dan pemrograman komputer."
+    },
+    {
+      title: "Web Desain",
+      description: "Ekskul fokus pada pembuatan website, UI/UX, dan animasi web."
+    },
+    {
+      title: "Desain Grafis",
+      description: "Ekskul belajar ilustrasi, grafis digital, dan branding kreatif."
+    },
+    {
+      title: "Futsal",
+      description: "Ekskul olahraga futsal untuk kebugaran, teamwork, dan strategi permainan."
+    },
+    {
+      title: "Bahasa Inggris",
+      description: "Ekskul yang melatih kemampuan bahasa Inggris, termasuk Listening, Reading, dan Speaking."
+    },
+    {
+      title: "Silat",
+      description: "Ekskul bela diri tradisional untuk melatih disiplin, kekuatan, dan pertahanan diri."
+    },
+    {
+      title: "Pramuka",
+      description: "Ekskul yang mengajarkan kepemimpinan, survival, dan kegiatan sosial di alam terbuka."
+    },
+    {
+      title: "Paskibra",
+      description: "Ekskul yang melatih ketangkasan, disiplin, dan kemampuan baris-berbaris untuk upacara."
+    },
+    {
+      title: "Lainnya",
+      description: "Tersedia ekskul lainnya seperti Robotic, PMR, Tari, Band, Karate, dan masih banyak lagi."
+    },
+  ];
+
   return (
-    <div className="bg-white">
-          <div className="mx-auto h-screen py-5">
-            <h1 className="text-l md:text-xl text-center font-semibold">
-              Kami menyediakan 2 jurusan yaitu PPLG (Pemrograman Perangkat Lunak dan
-              Gim) dan DKV (Desain Komunikasi Visual)
-            </h1>
-            <div className="max-w-6xl mx-auto px-4 mt-[50px]">
-              <div className="w-full md:w-[100%] flex flex-col items-center text-center bg-gray-200 p-6 rounded-2xl shadow-lg mb-[50px]">
-                <h3 className="text-xl font-semibold mb-2 text-black">
-                  Pemrograman Perangkat Lunak dan Gim (PPLG)
-                </h3>
-                <p>
-                  Jurusan PPLG fokus pada pengembangan perangkat lunak, aplikasi,
-                  dan game. Siswa belajar tentang pemrograman, algoritma, basis
-                  data, pengembangan web, serta pembuatan game. Jurusan ini
-                  mengembangkan kemampuan logika, problem solving, dan kreatifitas
-                  teknis sehingga lulusan mampu menciptakan solusi digital inovatif
-                  dan aplikasi yang bermanfaat bagi masyarakat.
-                </p>
-              </div>
-              <div className="w-full md:w-[100%] flex flex-col items-center text-center bg-gray-200 p-6 rounded-2xl shadow-lg">
-                <h3 className="text-xl font-semibold mb-2 text-black">
-                  Desain Komunikasi Visual (DKV)
-                </h3>
-                <p>
-                  Jurusan DKV mempelajari cara menyampaikan ide dan pesan melalui
-                  elemen visual, seperti grafis, ilustrasi, fotografi, animasi, dan
-                  multimedia. Siswa belajar desain grafis, tipografi, branding,
-                  serta strategi komunikasi visual. Jurusan ini menekankan
-                  kreativitas, estetika, dan kemampuan berkomunikasi secara visual,
-                  sehingga lulusan dapat bekerja sebagai desainer profesional di
-                  berbagai industri kreatif.
-                </p>
-              </div>
+    <div className="bg-white min-h-screen flex flex-col">
+      {/* Konten utama */}
+      <div className="flex-1 mx-auto w-full max-w-6xl px-4 py-10">
+        <h1 className="text-lg md:text-xl text-center font-semibold">
+          Ekstrakurikuler SMK Informatika CBI
+        </h1>
+
+        {/* Grid Layout */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+          {ekskulList.map((ekskul, index) => (
+            <div
+              key={index}
+              className="bg-gray-200 p-6 rounded-2xl shadow-lg flex flex-col items-center text-center"
+            >
+              <h3 className="text-xl font-semibold mb-2 text-black">
+                {ekskul.title}
+              </h3>
+              <p className="text-sm">
+                {ekskul.description}
+              </p>
             </div>
-          </div>
+          ))}
         </div>
+      </div>
+    </div>
   )
 }
 

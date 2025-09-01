@@ -13,7 +13,6 @@ import Ekskul from "./pages/Ekskul";
 import Jurusan from "./pages/Jurusan";
 import Kontak from "./pages/Kontak";
 import Organisasi from "./pages/Organisasi";
-import Profile from "./pages/Profile";
 
 const App = () => {
   return (
@@ -41,7 +40,6 @@ const App = () => {
         <Route path="/jurusan" element={<Jurusan />} />
         <Route path="/kontak" element={<Kontak />} />
         <Route path="/organisasi" element={<Organisasi />} />
-        <Route path="/profile" element={<Profile />} />
       </Routes>
 
       <Footer />

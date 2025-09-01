@@ -3,9 +3,9 @@ import { FaPalette, FaLaptopCode } from "react-icons/fa";
 
 const Jurusan = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col">
+    <div className="bg-white h-fit flex items-center justify-center">
       {/* Konten utama */}
-      <div className="flex-1 mx-auto w-full max-w-6xl px-4 py-10">
+      <div className="w-full max-w-6xl px-4 py-10">
         <h1 className="text-lg md:text-xl text-center font-semibold">
           Kami menyediakan 2 jurusan yaitu PPLG (Pemrograman Perangkat Lunak dan
           Gim) dan DKV (Desain Komunikasi Visual)
