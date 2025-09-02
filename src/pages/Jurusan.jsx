@@ -25,8 +25,6 @@ const Jurusan = () => {
               dan aplikasi yang bermanfaat bagi masyarakat.
             </p>
           </div>
-
-          {/* Card DKV */}
           <div className="flex-1 flex flex-col items-center text-center bg-gray-200 p-6 rounded-2xl shadow-lg">
             <FaPalette className="text-black w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-black">

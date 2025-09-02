@@ -27,7 +27,8 @@ const HeroVideo = () => {
           VIDEO PROFIL SMK INFORMATIKA CBI
         </h1>
         <p className="text-lg md:text-xl">
-          Kenali SMK INFORMATIKA CBI lebih lanjut dengan menonton video profil sekolah
+          Kenali SMK INFORMATIKA CBI lebih lanjut dengan menonton video profil
+          sekolah
         </p>
       </div>
       {open && (

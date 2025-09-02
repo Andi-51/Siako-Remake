@@ -36,7 +36,6 @@ const Header = () => {
   </li>
 </ul>
 
-      {/* Mobile Menu Toggle */}
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>

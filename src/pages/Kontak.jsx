@@ -41,13 +41,17 @@ const Kontak = () => {
           <div className="flex-1 flex flex-col items-center text-center bg-gray-200 p-6 rounded-2xl shadow-lg">
             <FaSearchLocation className="text-[#42a5f5] w-14 h-14 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-black">
-              Jl. Koramil RT 02/02 Ds. Purwasari Kec. Cicurug Kab. Sukabumi
-              Kode Pos 43357
+              Jl. Koramil RT 02/02 Ds. Purwasari Kec. Cicurug Kab. Sukabumi Kode
+              Pos 43357
             </h3>
           </div>
         </div>
         <div className="mt-10 h-[400px] w-full rounded-2xl overflow-hidden shadow-lg">
-          <MapContainer center={position} zoom={16} style={{ height: "100%", width: "100%" }}>
+          <MapContainer
+            center={position}
+            zoom={16}
+            style={{ height: "100%", width: "100%" }}
+          >
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

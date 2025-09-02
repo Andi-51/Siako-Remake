@@ -11,10 +11,10 @@ const Visi = () => {
           className="w-[150px] sm:w-[180px] md:w-[250px] lg:w-[300px]"
         />
         <h1 className="text-lg sm:text-xl md:text-2xl font-semibold leading-relaxed text-gray-800">
-          SMK Informatika CBI Kabupaten Sukabumi merupakan sekolah kejuruan
-          yang berfokus pada bidang{" "}
-          <span className="font-bold">Teknologi Informasi</span>. Dengan
-          jurusan unggulan{" "}
+          SMK Informatika CBI Kabupaten Sukabumi merupakan sekolah kejuruan yang
+          berfokus pada bidang{" "}
+          <span className="font-bold">Teknologi Informasi</span>. Dengan jurusan
+          unggulan{" "}
           <span className="font-bold">Rekayasa Perangkat Lunak (RPL)</span> dan{" "}
           <span className="font-bold">Multimedia (MM)</span>, kami berkomitmen
           mencetak lulusan yang{" "}

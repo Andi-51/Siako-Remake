@@ -1,42 +1,51 @@
-import React from 'react'
+import React from "react";
 
 const Ekskul = () => {
   const ekskulList = [
     {
       title: "Lab Komputer",
-      description: "Ekskul untuk belajar coding, hardware, dan pemrograman komputer."
+      description:
+        "Ekskul untuk belajar coding, hardware, dan pemrograman komputer.",
     },
     {
       title: "Web Desain",
-      description: "Ekskul fokus pada pembuatan website, UI/UX, dan animasi web."
+      description:
+        "Ekskul fokus pada pembuatan website, UI/UX, dan animasi web.",
     },
     {
       title: "Desain Grafis",
-      description: "Ekskul belajar ilustrasi, grafis digital, dan branding kreatif."
+      description:
+        "Ekskul belajar ilustrasi, grafis digital, dan branding kreatif.",
     },
     {
       title: "Futsal",
-      description: "Ekskul olahraga futsal untuk kebugaran, teamwork, dan strategi permainan."
+      description:
+        "Ekskul olahraga futsal untuk kebugaran, teamwork, dan strategi permainan.",
     },
     {
       title: "Bahasa Inggris",
-      description: "Ekskul yang melatih kemampuan bahasa Inggris, termasuk Listening, Reading, dan Speaking."
+      description:
+        "Ekskul yang melatih kemampuan bahasa Inggris, termasuk Listening, Reading, dan Speaking.",
     },
     {
       title: "Silat",
-      description: "Ekskul bela diri tradisional untuk melatih disiplin, kekuatan, dan pertahanan diri."
+      description:
+        "Ekskul bela diri tradisional untuk melatih disiplin, kekuatan, dan pertahanan diri.",
     },
     {
       title: "Pramuka",
-      description: "Ekskul yang mengajarkan kepemimpinan, survival, dan kegiatan sosial di alam terbuka."
+      description:
+        "Ekskul yang mengajarkan kepemimpinan, survival, dan kegiatan sosial di alam terbuka.",
     },
     {
       title: "Paskibra",
-      description: "Ekskul yang melatih ketangkasan, disiplin, dan kemampuan baris-berbaris untuk upacara."
+      description:
+        "Ekskul yang melatih ketangkasan, disiplin, dan kemampuan baris-berbaris untuk upacara.",
     },
     {
       title: "Lainnya",
-      description: "Tersedia ekskul lainnya seperti Robotic, PMR, Tari, Band, Karate, dan masih banyak lagi."
+      description:
+        "Tersedia ekskul lainnya seperti Robotic, PMR, Tari, Band, Karate, dan masih banyak lagi.",
     },
   ];
 
@@ -55,15 +64,13 @@ const Ekskul = () => {
               <h3 className="text-xl font-semibold mb-2 text-black">
                 {ekskul.title}
               </h3>
-              <p className="text-sm">
-                {ekskul.description}
-              </p>
+              <p className="text-sm">{ekskul.description}</p>
             </div>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Ekskul
+export default Ekskul;

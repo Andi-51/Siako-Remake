@@ -13,7 +13,9 @@ const Facilities = () => {
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-12">
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <ImBooks className="text-[#00df9a] w-14 h-14 mb-4" />
-            <h3 className="text-xl font-semibold mb-2 text-white">Perpustakaan</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">
+              Perpustakaan
+            </h3>
             <p>
               Perpustakaan dengan berbagai buku pelajaran dan umum yang dapat
               digunakan oleh siswa-siswi.
@@ -21,7 +23,9 @@ const Facilities = () => {
           </div>
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <IoSchoolSharp className="text-[#00df9a] w-14 h-14 mb-4" />
-            <h3 className="text-xl font-semibold mb-2 text-white">Ruang Belajar Modern</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">
+              Ruang Belajar Modern
+            </h3>
             <p>
               Fasilitas sekolah modern dengan ruang kelas nyaman dan berbasis
               teknologi.
@@ -29,13 +33,14 @@ const Facilities = () => {
           </div>
           <div className="w-full md:w-1/3 flex flex-col items-center text-center bg-[#2a2a2a] p-6 rounded-2xl shadow-lg">
             <FaSchool className="text-[#00df9a] w-14 h-14 mb-4" />
-            <h3 className="text-xl font-semibold mb-2 text-white">Lingkungan Nyaman</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">
+              Lingkungan Nyaman
+            </h3>
             <p>
               Lingkungan sekolah yang mendukung proses belajar dan kegiatan
               ekstrakurikuler.
             </p>
           </div>
-
         </div>
       </div>
     </section>
