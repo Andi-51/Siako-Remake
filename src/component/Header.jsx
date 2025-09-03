@@ -13,7 +13,7 @@ const Header = () => {
   const handleNav = () => setNav(!nav);
 
   return (
-    <div className="Header flex justify-between items-center h-24 w-full bg-[#42A5F5] px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 text-white">
+    <div className="Header flex justify-between items-center h-24 w-full bg-[#42A5F5] px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 text-white z-50">
       <h1 className="flex items-center text-3xl font-semibold text-white">
         <img src={Logo} alt="logo" className="w-12 h-12 object-contain mr-2" />
         SMK CBI

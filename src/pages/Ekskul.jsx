@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../assets/img1.jpg";
 
 const Ekskul = () => {
   const ekskulList = [
@@ -51,10 +52,21 @@ const Ekskul = () => {
 
   return (
     <div className="bg-white min-h-screen flex flex-col">
+      <div
+        className="relative w-full h-[75vh] bg-cover bg-center flex items-center justify-center"
+        style={{ backgroundImage: `url(${img1})` }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="relative z-10 text-center text-white">
+          <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
+            Ekstrakurikuler
+          </h1>
+        </div>
+      </div>
       <div className="flex-1 mx-auto w-full max-w-6xl px-4 py-10">
-        <h1 className="text-lg md:text-xl text-center font-semibold">
-          Ekstrakurikuler SMK Informatika CBI
-        </h1>
+        <h2 className="text-lg md:text-xl text-center font-semibold">
+          Pilihan Ekstrakurikuler Kami
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
           {ekskulList.map((ekskul, index) => (
             <div
