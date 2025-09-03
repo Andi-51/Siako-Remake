@@ -29,8 +29,8 @@ const Hero = () => {
         </div>
         <p className="md:text-xl text-lg font-bold text-white md:pt-4 sm:pt-3 pt-2 px-3">
           sekolah unggulan dengan jurusan
-          <span className="text-blue-500"> Rekayasa Perangkat Lunak</span> dan
-          <span className="text-yellow-300"> Multimedia</span> untuk mencetak
+          <span className="text-blue-300"> Rekayasa Perangkat Lunak</span> dan
+          <span className="text-blue-300"> Multimedia</span> untuk mencetak
           generasi kreatif, inovatif, dan berdaya saing.
         </p>
       </div>
